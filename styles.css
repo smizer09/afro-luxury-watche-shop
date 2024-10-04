@@ -1,0 +1,437 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+  text-align: center;
+}
+/* Navigation */
+header {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center; /* Center the nav items */
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  position: absolute; /* Position logo to the left */
+  left: 20px;
+}
+.logo img{
+height: 80px;
+width: 80px;
+}
+.brand{
+padding-left: 200px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Ensure the list items are displayed in a row */
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Navigation */
+header {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  align-items: center; /* Align items vertically centered */
+  justify-content: space-between; /* Space between logo and nav items */
+  
+}
+
+.logo {
+  margin-left: 20px; /* Add some space to the left of the logo */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Ensure the list items are displayed in a row */
+  flex-grow: 1; /* Allow the ul to grow and take available space */
+  justify-content: center; /* Center the nav items */
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+
+/* Banner Section */
+.banner {
+  padding: 100px 0;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  height: 80px;
+
+
+  background-image: url("pic/1221.jpg");
+}
+
+
+.banner h1 {
+  font-size: 48px;
+  margin-bottom: -10px;
+}
+
+.banner p {
+  font-size: 20px;
+  color: #666;
+}
+
+/* Product Section */
+
+#shop{
+ margin-top: 20vd:
+ margin-bottom: 20vw;
+ background-color: #f8f8f8;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+
+
+.product {
+ 
+  margin: 0 20px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+.product h2{
+font-size: 10px;
+
+
+}
+
+.product img {
+  width: 200px;
+  height: auto;
+}
+
+
+
+.product p {
+  font-size: 18px;
+  color: #555;
+}
+
+.buy-now {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.buy-now:hover {
+  background-color: #555;
+}
+
+#pic{
+ width: 250px;
+ height: 250px;
+ }
+
+/*==========================
+	Start Appointment CSS
+============================*/
+  .contact-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .contact-box {
+            display: flex;
+            max-width: 1100px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .contact-box img {
+            width: 45%;
+            height: auto;
+        }
+
+        .contact-form {
+            padding: 20px;
+            width: 45%;
+        }
+
+        .contact-form h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .contact-form label {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #555;
+        }
+
+.ad-banner {
+            width: 1200px;
+            height: 200px;
+            margin: 0 auto;
+            border: 3px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            color: #555;
+            margin-top: 50px;
+            margin-bottom: 50px;
+
+        }
+.shop_here{
+ width: 100%;
+
+	
+}
+
+.shop_here h2{
+ font-size: 45px;
+ background-color: 
+ margin-top: 60px;
+ margin-bottom: 60px;
+ align-text: center; 
+ padding-top: 50px;
+}
+
+.clas h2{
+ font-size: 45px;
+ background-color: 
+ margin-top: 60px;
+ margin-bottom: 60px;
+ align-text: center; 
+ padding-top: 50px;
+ 
+}
+#p{
+ background-color: #f8f8f8;
+ height: 150px;
+ }
+
+
+/* Footer Styles */
+footer {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%; /* Full width for the content */
+  margin-bottom: 10px; /* Space between content and company info */
+}
+
+.social-media a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-media a:hover {
+  color: #666;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #555;
+}
+
+.company-info {
+  text-align: center; /* Center the company info text */
+  margin-top: 10px; /* Space above the company info */
+}
+
+.company-info p {
+ 
+}
+.slider {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 1 0 25%; /* This makes each product take up 25% of the width (4 products in a row) */
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.slide img {
+  width: 250px;
+  height: 250px;
+  display: block;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .slide {
+    flex: 1 0 50%; /* Show 2 products in a row on smaller screens */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .slide {
+    flex: 1 0 100%; /* Show 1 product in a row on very small screens */
+  }
+}
+
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 100%;
+  margin: auto;
+  padding: 25px 25px ;
+  
+  
+}
+
+.product img{
+ width: 250px;
+ height: 250px;
+}
+
+
+
+button {
+  background-color: #555;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.load-more {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.load-more:hover {
+  background-color: #555;
+}
+
+@media only screen and (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
